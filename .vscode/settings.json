@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "dvd_rental",
+            "database": "dvd_rental",
+            "username": "postgres",
+            "password": "T3t3mJ@m35",
+            "connectionTimeout": 2000
+        }
+    ]
+}
