@@ -1,7 +1,7 @@
 {
   "name": "postgre_and_prisma",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,12 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
+    "@nestjs/common": "^10.4.8",
+    "@nestjs/core": "^10.4.8",
     "@prisma/client": "^5.22.0",
-    "prisma": "^5.22.0"
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "prisma": "^5.22.0",
+    "rxjs": "^7.8.1"
   }
 }
